@@ -1,4 +1,6 @@
-# haha
+# Readers-Writers-Problem
+This project was done for my Operating Systems assignment at the Department of Informatics and Telecommunications at NKUA.
+# Description of the problem
 Parent:
 The parent process is initiated using 4 arguments given by the user, a filename,the number of lines each segment must have, the number of child processes to be used and the number of transactions each child process is involved to. The filename is a text file what contains random words(1000+lines).
 Afterwards, 4 semaphores are created.
@@ -26,7 +28,7 @@ Parent prints the time taken for a segment to leave shared memory.
 The processes are terminated when the desired number of transactions has been completed among all child processes.
 
 In the end all shared memories are detached and semaphores closed and unlinked.
-
+# Execution
 make
 ./parent a b c d
 
