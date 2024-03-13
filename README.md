@@ -1,4 +1,4 @@
-<sub> haha
+# haha#
 Parent:
 The parent process is initiated using 4 arguments given by the user, a filename,the number of lines each segment must have, the number of child processes to be used and the number of transactions each child process is involved to. The filename is a text file what contains random words(1000+lines).
 Afterwards, 4 semaphores are created.
