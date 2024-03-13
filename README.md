@@ -32,9 +32,9 @@ In the end all shared memories are detached and semaphores closed and unlinked.
 make
 ./parent a b c d
 
-a:the name of the input file
-b:the number of lines each segment must have
-c:the number of childs
+a:the name of the input file, 
+b:the number of lines each segment must have, 
+c:the number of childs, 
 d:the number of request per child
 
 I am using comments for extra information in the code.
